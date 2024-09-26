@@ -1,0 +1,4 @@
+SELECT CONVERT(VARCHAR(10), GETDATE(), 103) -- dd/MM/yyyy format
+
+he shortest date format of mm/dd/yy can be obtained with:
+Select Convert(varchar(8),getdate(),1)

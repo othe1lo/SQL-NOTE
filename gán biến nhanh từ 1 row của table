@@ -1,0 +1,7 @@
+SELECT 
+			@PartNum = PartNum,
+			@PartDesc = PartDescription,
+			@RevisionNum=  RevisionNum,
+			@Plant=  Plant,
+			@DueDate=  DueDate
+			from #PartInfor Where RowNum = @RowX
